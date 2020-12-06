@@ -12,9 +12,9 @@ project. Descriptions of classes, methods, and fields is taken from block
 comments (/* and */) just before the declaration of a class, method, or field.
 '''
 
-FILENAME = "C:\\Users\\josep\\git\\Tangerine2\\src"
-TITLE = "Tangerine2"
-DESC = "Tangerine Text Editor is a lightweight text editor written in Java. It is geared toward developers that like simplicity and just want to code, and just want what is necessary"
+FILENAME = "" # Give path to src folder here
+TITLE = "" # Give title of project here
+DESC = "" # Give project description here
 
 
 '''
