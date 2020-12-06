@@ -12,10 +12,9 @@ project. Descriptions of classes, methods, and fields is taken from block
 comments (/* and */) just before the declaration of a class, method, or field.
 '''
 
-
-FILENAME = "" # Give path to src folder here
-TITLE = "" # Give title of project here
-DESC = "" # Give description of project here
+FILENAME = "C:\\Users\\josep\\git\\Tangerine2\\src"
+TITLE = "Tangerine2"
+DESC = "Tangerine Text Editor is a lightweight text editor written in Java. It is geared toward developers that like simplicity and just want to code, and just want what is necessary"
 
 
 '''
@@ -261,7 +260,7 @@ def write_header(output, title, name, desc):
 
 
 def write_footer(output):
-    output.write("</div><div class=\"bottom\">Powered by Skrivare<br>&copy; 2020 Joseph Shimel</div></body></html>")
+    output.write("</div><div class=\"bottom\">Powered by <a href=\"https://github.com/Rakhyvel/Skrivare\">Skrivare</a><br>&copy; 2020 Joseph Shimel</div></body></html>")
 
 
 '''
